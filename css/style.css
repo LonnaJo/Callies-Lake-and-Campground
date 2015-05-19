@@ -1,0 +1,143 @@
+/* HEADER */
+header {
+    background-color:#26FF8A;
+    text-align: center;
+    margin: 0;
+    text-decoration:none;
+}
+
+.main-header {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 15px 0;
+    font-size: 2em;
+    color:#C11F0A;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/* NAVIGATION */
+nav {
+    background-color:#03E575;
+    font-family: 'Shadows Into Light', cursive;
+    padding-bottom: 25px;
+}
+a {
+    text-decoration: none;
+    color:#0AC166;
+}
+ nav a:visited {
+    color:#BBFFFF;
+}
+nav a:selected {
+    color:#C11A0A;
+}
+nav a:hover {
+    color:#C11A0A;
+}
+
+/* SITE BODY */
+body {
+    background-color:#BBFFFF;
+    color:#0AC166;
+}
+
+.primary-content {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 25px 5%;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+    padding:10px 0;
+    margin:20px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav li {
+    display:inline-block;
+    margin: 0 10px;
+    padding: 0;
+}
+
+/* ABOUT PAGE */
+.profile-photo {
+    display: block;
+    max-width: 200px;
+    border-radius: 10%;
+    margin: 0 5% 80px 0;
+    float: left;
+}
+.about-info {
+    padding: 25px 5%;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 5%;
+}
+h3 {
+    margin: 1em 0;
+    font-size: 20px;
+    
+}
+
+
+/* CONTACT PAGE */
+.primary {
+    width: 50%;
+    
+    
+    float: right;
+}
+
+.secondary {
+    width: 50%;
+    
+    
+    float: left;
+}
+
+
+
+
+.rates {
+    list-style: none;
+    padding: 5px;
+    
+    font-size: 15px;
+}
+.contact-info {
+    list-style: none;
+    padding: 5px;
+   
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #BBFFFF;
+    color:#0AC166;
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 20%;
+}
+
+/* MEDIA QUERIES */
+@media-screen and (min-width: 480px)
+ 
+   
+@media-screen and (min-width: 660px)
+    
+
